@@ -24,11 +24,6 @@ var memorize = (function (memorize) {
         var $operand1DecimalPlus = $('#operand1DecimalPlus');
         var $operand1DecimalMinus = $('#operand1DecimalMinus');
 
-        var $operand1Binary = $('#operand1Binary');
-        var $operand1NOT = $('#operand1NOT');
-        var $operand1LEFTSHIFT = $('#operand1LEFTSHIFT');
-        var $operand1RIGHTSHIFT = $('#operand1RIGHTSHIFT');
-
         var $operand1System = $('#operand1System');
 
         // --------------------------------------------------------------------------------
