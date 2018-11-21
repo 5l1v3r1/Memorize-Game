@@ -16,7 +16,6 @@ var memorize = (function (memorize) {
         var $inputGroupSelectBit = $('#inputGroupSelectBit');
         var $SignedUnsignedSwitch = $('#switch-SignedUnsigned');
         var $ACButton = $('#ACButton');
-        var $inputGroupSelectSystem = $('#inputGroupSelectSystem');
         
         // Input Group - Operand 1
 
