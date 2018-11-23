@@ -19,7 +19,6 @@ var memorize = (function (memorize) {
         // Input Group - Operand 1
 
         var $operand1Decimal = $('#operand1Decimal');
-        var $operand1DecimalPlus = $('#operand1DecimalPlus');
 
         var $operand1System = $('#operand1System');
 
