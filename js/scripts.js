@@ -5,7 +5,6 @@ var memorize = (function (memorize) {
         // --------------------------------------------------------------------------------
         // Private properties
         // --------------------------------------------------------------------------------
-        var index = -1;
 
         var gameDifficulty  = {
             Easy: 1,
@@ -18,8 +17,7 @@ var memorize = (function (memorize) {
         // --------------------------------------------------------------------------------
 
         // Options
-
-        var $inputGroupSelectBit = $('#inputGroupSelectBit');
+        
         var $ACButton = $('#ACButton');
         
         // Input Group - Operand 1
