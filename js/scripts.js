@@ -50,7 +50,9 @@ var memorize = (function (memorize) {
         }
 
         function close() {
-
+        	$(".mainMenu").removeClass("active");
+        	$(".optionsMenu").removeClass("active");
+        	$(".inGame").removeClass("active");
         }
 
         return logic;
