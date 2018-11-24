@@ -60,3 +60,7 @@ a:active {
 .mainMenu{
 	background-color:blue;
 }
+
+.optionsMenu{
+	background-color:grey;
+}
