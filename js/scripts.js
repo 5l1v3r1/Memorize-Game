@@ -29,7 +29,15 @@ var memorize = (function (memorize) {
 
         Init();
 
-        function openMainMenu(){
+        function startGame() {
+
+        }
+
+        function openMainMenu() {
+
+        }
+
+        function openOptionMenu() {
 
         }
 
