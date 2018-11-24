@@ -40,5 +40,9 @@ a:active {
 }
 
 .displayedView{
-	display:none;
+	display:hidden;
+}
+
+.displayedView .active{
+	display:block !important;
 }
