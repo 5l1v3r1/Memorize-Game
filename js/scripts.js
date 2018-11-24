@@ -20,8 +20,6 @@ var memorize = (function (memorize) {
 
         var $operand1Decimal = $('#operand1Decimal');
 
-        var $operand1System = $('#operand1System');
-
         // --------------------------------------------------------------------------------
         // Private functions
         // --------------------------------------------------------------------------------
