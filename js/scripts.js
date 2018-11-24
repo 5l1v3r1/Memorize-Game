@@ -29,6 +29,10 @@ var memorize = (function (memorize) {
 
         Init();
 
+        function openMainMenu(){
+
+        }
+
         return logic;
 
     }(memorize.logic || {}));
