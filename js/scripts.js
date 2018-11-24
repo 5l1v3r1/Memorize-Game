@@ -38,14 +38,17 @@ var memorize = (function (memorize) {
         // GUI Logic
 
         function startGame() {
+        	close();
 
         }
 
         function openMainMenu() {
+        	close();
 
         }
 
         function openOptionMenu() {
+        	close();
 
         }
 
