@@ -39,17 +39,17 @@ var memorize = (function (memorize) {
 
         function startGame() {
         	close();
-
+        	$(".inGame").addClass("active");
         }
 
         function openMainMenu() {
         	close();
-
+        	$(".mainMenu").addClass("active");
         }
 
         function openOptionMenu() {
         	close();
-
+        	$(".optionsMenu").addClass("active");
         }
 
         function close() {
