@@ -35,6 +35,8 @@ var memorize = (function (memorize) {
 
         Init();
 
+        // GUI Logic
+
         function startGame() {
 
         }
@@ -44,6 +46,10 @@ var memorize = (function (memorize) {
         }
 
         function openOptionMenu() {
+
+        }
+
+        function close() {
 
         }
 
