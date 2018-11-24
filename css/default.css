@@ -39,28 +39,32 @@ a:active {
 	color: #333;
 }
 
-.displayedView{
+.displayedView {
 	display:hidden;
 }
 
-.displayedView .active{
+.displayedView .active {
 	display:block !important;
 }
 
-.gameDiv{
+.gameDiv {
 	width:100%;
 	height:100%;
 }
 
-.mainMenu, .optionsMenu, .inGame{
+.mainMenu, .optionsMenu, .inGame {
 	width:100%;
 	height:100%;
 }
 
-.mainMenu{
+.mainMenu {
 	background-color:blue;
 }
 
-.optionsMenu{
+.optionsMenu {
 	background-color:grey;
+}
+
+.inGame {
+	background-color:red;
 }
