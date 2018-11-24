@@ -46,3 +46,8 @@ a:active {
 .displayedView .active{
 	display:block !important;
 }
+
+.gameDiv{
+	width:100%;
+	height:100%;
+}
