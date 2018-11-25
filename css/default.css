@@ -83,6 +83,10 @@ a:active {
     transition: none;
 }
 
+.menuButtons .button-2:hover {
+    box-shadow: 0 4px rgba(63,208,212,0.7) !important;
+}
+
 /* Main Menu - End */
 
 /* Options Menu - Start */
