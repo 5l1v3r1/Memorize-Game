@@ -50,10 +50,16 @@ var memorize = (function (memorize) {
         	$(".optionsMenu").addClass("active");
         }
 
+        function openCredits() {
+        	close();
+        	$(".credits").addClass("active");
+        }
+
         function close() {
         	$(".mainMenu").removeClass("active");
         	$(".optionsMenu").removeClass("active");
         	$(".inGame").removeClass("active");
+        	$(".credits").removeClass("active");
         }
 
         // Click Event Handlers
