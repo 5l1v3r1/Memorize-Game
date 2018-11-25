@@ -45,10 +45,10 @@ a:active {
 }
 
 .displayedView {
-	display:hidden;
+	display: none;
 }
 
-.displayedView .active {
+.gameDiv .active {
 	display:block !important;
 }
 
