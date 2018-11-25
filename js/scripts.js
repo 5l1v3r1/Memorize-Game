@@ -73,7 +73,7 @@ var memorize = (function (memorize) {
 		});
 
 		$( "#BTNCredits" ).click(function() {
-			
+			openCredits();
 		});
 
         return logic;

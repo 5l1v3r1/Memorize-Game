@@ -57,7 +57,7 @@ a:active {
 	height:100%;
 }
 
-.mainMenu, .optionsMenu, .inGame {
+.mainMenu, .optionsMenu, .inGame, .credits {
 	width:100%;
 	height:100%;
 }
@@ -104,6 +104,14 @@ a:active {
 
 .inGame {
 	background-color:red;
+}
+
+/* in Game - End */
+
+/* in Game - Start */
+
+.credits {
+	background-color:blue;
 }
 
 /* in Game - End */
