@@ -70,9 +70,13 @@ a:active {
 
 /* Main Menu - End */
 
+/* Options Menu - Start */
+
 .optionsMenu {
 	background-color:grey;
 }
+
+/* Options Menu - End */
 
 .inGame {
 	background-color:red;
