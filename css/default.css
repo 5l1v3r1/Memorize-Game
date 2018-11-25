@@ -62,9 +62,13 @@ a:active {
 	height:100%;
 }
 
+/* Main Menu - Start */
+
 .mainMenu {
 	background-color:blue;
 }
+
+/* Main Menu - End */
 
 .optionsMenu {
 	background-color:grey;
@@ -73,3 +77,4 @@ a:active {
 .inGame {
 	background-color:red;
 }
+
