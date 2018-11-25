@@ -56,6 +56,20 @@ var memorize = (function (memorize) {
         	$(".inGame").removeClass("active");
         }
 
+        // Click Handlers
+
+        $( "#BTNStartGame" ).click(function() {
+			startGame();
+		});
+
+		$( "#BTNOptions" ).click(function() {
+			openOptionMenu();
+		});
+
+		$( "#BTNCredits" ).click(function() {
+			
+		});
+
         return logic;
 
     }(memorize.logic || {}));
