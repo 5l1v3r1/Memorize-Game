@@ -56,7 +56,7 @@ var memorize = (function (memorize) {
         	$(".inGame").removeClass("active");
         }
 
-        // Click Handlers
+        // Click Event Handlers
 
         $( "#BTNStartGame" ).click(function() {
 			startGame();
