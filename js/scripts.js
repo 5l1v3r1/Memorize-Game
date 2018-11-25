@@ -76,6 +76,10 @@ var memorize = (function (memorize) {
 			openCredits();
 		});
 
+		$( ".backBTN" ).click(function() {
+			openMainMenu();
+		});
+
         return logic;
 
     }(memorize.logic || {}));
