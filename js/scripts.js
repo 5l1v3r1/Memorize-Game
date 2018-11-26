@@ -1,70 +1,70 @@
 var memorize = (function (memorize) {
 
-    memorize.logic = (function (logic) {
+	memorize.logic = (function (logic) {
 
-        // --------------------------------------------------------------------------------
-        // Private properties
-        // --------------------------------------------------------------------------------
+		// --------------------------------------------------------------------------------
+		// Private properties
+		// --------------------------------------------------------------------------------
 
-        var gameDifficulty  = {
-            Easy: 1,
-            Medium: 2,
-            Hard: 3,
+		var gameDifficulty  = {
+		    Easy: 1,
+		    Medium: 2,
+		    Hard: 3,
 		};
 
-        // --------------------------------------------------------------------------------
-        // DOM objects
-        // --------------------------------------------------------------------------------
+		// --------------------------------------------------------------------------------
+		// DOM objects
+		// --------------------------------------------------------------------------------
 
-        // Options
-        
-        var $ACButton = $('#ACButton');
-        
-        // Input Group - Operand 1
+		// Options
 
-        var $operand1Decimal = $('#operand1Decimal');
+		var $ACButton = $('#ACButton');
 
-        // --------------------------------------------------------------------------------
-        // Private functions
-        // --------------------------------------------------------------------------------
-        function Init() {
+		// Input Group - Operand 1
 
-        }
+		var $operand1Decimal = $('#operand1Decimal');
 
-        Init();
+		// --------------------------------------------------------------------------------
+		// Private functions
+		// --------------------------------------------------------------------------------
+		function Init() {
 
-        // GUI Logic
+		}
 
-        function startGame() {
-        	close();
-        	$(".inGame").addClass("active");
-        }
+		Init();
 
-        function openMainMenu() {
-        	close();
-        	$(".mainMenu").addClass("active");
-        }
+		// GUI Logic
 
-        function openOptionMenu() {
-        	close();
-        	$(".optionsMenu").addClass("active");
-        }
+		function startGame() {
+			close();
+			$(".inGame").addClass("active");
+		}
 
-        function openCredits() {
-        	close();
-        	$(".credits").addClass("active");
-        }
+		function openMainMenu() {
+			close();
+			$(".mainMenu").addClass("active");
+		}
 
-        function close() {
-        	$(".mainMenu").removeClass("active");
-        	$(".optionsMenu").removeClass("active");
-        	$(".inGame").removeClass("active");
-        	$(".credits").removeClass("active");
-        }
+		function openOptionMenu() {
+			close();
+			$(".optionsMenu").addClass("active");
+		}
+
+		function openCredits() {
+			close();
+			$(".credits").addClass("active");
+		}
+
+		function close() {
+			$(".mainMenu").removeClass("active");
+			$(".optionsMenu").removeClass("active");
+			$(".inGame").removeClass("active");
+			$(".credits").removeClass("active");
+		}
 
         // Click Event Handlers
 
-        $( "#BTNStartGame" ).click(function() {
+		$( "#BTNStartGame" ).click(function() {
 			startGame();
 		});
 
@@ -80,10 +80,10 @@ var memorize = (function (memorize) {
 			openMainMenu();
 		});
 
-        return logic;
+		return logic;
 
-    }(memorize.logic || {}));
+	}(memorize.logic || {}));
 
-    return memorize;
+	return memorize;
 
 }(memorize || {}));
