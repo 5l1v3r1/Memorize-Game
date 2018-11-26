@@ -62,7 +62,7 @@ var memorize = (function (memorize) {
 			$(".credits").removeClass("active");
 		}
 
-        // Click Event Handlers
+		// Click Event Handlers
 
 		$( "#BTNStartGame" ).click(function() {
 			startGame();
