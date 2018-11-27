@@ -35,24 +35,9 @@ var memorize = (function (memorize) {
 
 		// GUI Logic
 
-		function startGame() {
+		function openView(viewClass) {
 			close();
-			$(".inGame").addClass("active");
-		}
-
-		function openMainMenu() {
-			close();
-			$(".mainMenu").addClass("active");
-		}
-
-		function openOptionMenu() {
-			close();
-			$(".optionsMenu").addClass("active");
-		}
-
-		function openCredits() {
-			close();
-			$(".credits").addClass("active");
+			$(viewClass).addClass("active");
 		}
 
 		function close() {
@@ -64,20 +49,20 @@ var memorize = (function (memorize) {
 
 		// Click Event Handlers
 
-		$( "#BTNStartGame" ).click(function() {
-			startGame();
+		$("#BTNStartGame").click(function() {
+			openView(".inGame");
 		});
 
-		$( "#BTNOptions" ).click(function() {
-			openOptionMenu();
+		$("#BTNOptions").click(function() {
+			openView(".optionsMenu");
 		});
 
-		$( "#BTNCredits" ).click(function() {
-			openCredits();
+		$("#BTNCredits").click(function() {
+			openView(".credits");
 		});
 
-		$( ".backBTN" ).click(function() {
-			openMainMenu();
+		$(".backBTN").click(function() {
+			openView(".mainMenu");
 		});
 
 		return logic;
