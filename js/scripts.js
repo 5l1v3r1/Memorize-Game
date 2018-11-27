@@ -33,8 +33,9 @@ var memorize = (function (memorize) {
 
 		Init();
 
-		// GUI Logic
+		// GUI Logic - Start
 
+		// Opens the View with the specified class name.
 		function openView(viewClass) {
 			close();
 			$(viewClass).addClass("active");
@@ -64,6 +65,8 @@ var memorize = (function (memorize) {
 		$(".backBTN").click(function() {
 			openView(".mainMenu");
 		});
+
+		// GUI Logic - End
 
 		return logic;
 
