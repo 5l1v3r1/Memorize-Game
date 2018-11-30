@@ -75,19 +75,19 @@ a:active {
 }
 
 .menuButtons .button-2 {
-    background: rgba(63,208,212,1) !important;
-    color: #fff;
-    box-shadow: 0 6px rgba(63,208,212,0.7);
-    -webkit-transition: none;
-    -moz-transition: none;
-    transition: none;
-    height: 42px;
+	background: rgba(63,208,212,1) !important;
+	color: #fff;
+	box-shadow: 0 6px rgba(63,208,212,0.7);
+	-webkit-transition: none;
+	-moz-transition: none;
+	transition: none;
+	height: 42px;
 	padding: 8px 40px;
 	margin: 5px 5px;
 }
 
 .menuButtons .button-2:hover {
-    box-shadow: 0 4px rgba(63,208,212,0.7) !important;
+	box-shadow: 0 4px rgba(63,208,212,0.7) !important;
 }
 
 /* Main Menu - End */
