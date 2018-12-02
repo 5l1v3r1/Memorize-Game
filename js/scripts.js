@@ -16,13 +16,9 @@ var memorize = (function (memorize) {
 		// DOM objects
 		// --------------------------------------------------------------------------------
 
-		// Options
+		// Audio / Sound
 
-		var $ACButton = $('#ACButton');
-
-		// Input Group - Operand 1
-
-		var $operand1Decimal = $('#operand1Decimal');
+		var $btnClickAudio = $('#btnClickAudio');
 
 		// --------------------------------------------------------------------------------
 		// Private functions
