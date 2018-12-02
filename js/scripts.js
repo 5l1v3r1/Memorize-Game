@@ -16,13 +16,17 @@ var memorize = (function (memorize) {
 		// DOM objects
 		// --------------------------------------------------------------------------------
 
+		var $BTNStartGame = $('#BTNStartGame');
+
 		// Audio / Sound
 
-		var $btnClickAudio = $('#btnClickAudio');
+		var btnClickAudio = document.createElement('audio');
+   		btnClickAudio.setAttribute('src', 'audio/click.mp3');
 
 		// --------------------------------------------------------------------------------
 		// Private functions
 		// --------------------------------------------------------------------------------
+
 		function Init() {
 
 		}
@@ -60,6 +64,12 @@ var memorize = (function (memorize) {
 
 		$(".backBTN").click(function() {
 			openView(".mainMenu");
+		});
+
+		// Audio / Sound
+
+		$(".button").click(function() {
+			btnClickAudio.play();
 		});
 
 		// GUI Logic - End
