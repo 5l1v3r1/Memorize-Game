@@ -17,6 +17,8 @@ var memorize = (function (memorize) {
 		// --------------------------------------------------------------------------------
 
 		var $BTNStartGame = $('#BTNStartGame');
+		var $BTNOptions = $('#BTNOptions');
+		var $BTNCredits = $('#BTNCredits');
 
 		// Audio / Sound
 
