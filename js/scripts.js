@@ -52,15 +52,15 @@ var memorize = (function (memorize) {
 
 		// Click Event Handlers
 
-		$("#BTNStartGame").click(function() {
+		$BTNStartGame.click(function() {
 			openView(".inGame");
 		});
 
-		$("#BTNOptions").click(function() {
+		$BTNOptions.click(function() {
 			openView(".optionsMenu");
 		});
 
-		$("#BTNCredits").click(function() {
+		$BTNCredits.click(function() {
 			openView(".credits");
 		});
 
