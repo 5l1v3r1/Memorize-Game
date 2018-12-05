@@ -66,6 +66,11 @@ a:active {
 	height:100%;
 }
 
+.backBTN{
+	padding: 5px 30px !important;
+	margin-left: 0px !important;
+}
+
 /* Main Menu - Start */
 
 .mainMenu {
