@@ -126,14 +126,19 @@ a:active {
 /* Shapes - Start */
 
 .triangle{
-	width: 0;
-	height: 0;
-	border-left: 25px solid transparent;
-	border-right: 25px solid transparent;
-	border-bottom: 50px solid #555;
+	width: 200px;
+    height: 200px;
+    background-color:red;
+
+    /* The points are: centered top, left bottom, right bottom */
+    clip-path: polygon(50% 0, 0 100%, 100% 100%);
 }
 
 /* Shapes - End */
+
+/* Shape Colors - Start */
+
+/* Shape Colors - End */
 
 /* in Game - End */
 
