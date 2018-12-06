@@ -138,13 +138,11 @@ a:active {
 .circle{
 	border-radius: 50%;
     behavior: url(PIE.htc); /* remove if you don't care about IE8 */
-    background-color:red;
 }
 
 .triangle{
 	width: 100%;
     height: 100%;
-    background-color:red;
 
     /* The points are: centered top, left bottom, right bottom */
     clip-path: polygon(50% 0, 0 100%, 100% 100%);
@@ -153,7 +151,6 @@ a:active {
 .square{
 	width: 100%;
     height: 100%;
-    background-color:red;
 }
 
 /* Shapes - End */
