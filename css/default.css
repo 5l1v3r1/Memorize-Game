@@ -160,6 +160,26 @@ a:active {
 
 /* Shape Colors - Start */
 
+.red{
+	background-color:red;
+}
+
+.blue{
+	background-color:blue;
+}
+
+.green{
+    background-color:green;
+}
+
+.yellow{
+    background-color:yellow;
+}
+
+.cyan{
+    background-color:cyan;
+}
+
 /* Shape Colors - End */
 
 /* in Game - End */
