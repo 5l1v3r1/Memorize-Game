@@ -118,16 +118,26 @@ a:active {
 #GameContainer{
 	width:100%;
 	height:60%;
+	min-height:210px;
 	background-color:blue;
 	border: 5px solid #FFF;
 	border-radius: 5px;
 }
 
+#CurrentShapeContainer{
+	margin-top:10%;
+}
+
+#CurrentShape{
+	width:150px;
+	height:150px;
+}
+
 /* Shapes - Start */
 
 .triangle{
-	width: 200px;
-    height: 200px;
+	width: 100%;
+    height: 100%;
     background-color:red;
 
     /* The points are: centered top, left bottom, right bottom */
