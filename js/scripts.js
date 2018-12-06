@@ -12,6 +12,8 @@ var memorize = (function (memorize) {
 			Hard: 3,
 		};
 
+		var currentShapesList = new Array();
+
 		// --------------------------------------------------------------------------------
 		// DOM objects
 		// --------------------------------------------------------------------------------
@@ -35,6 +37,12 @@ var memorize = (function (memorize) {
 		}
 
 		Init();
+
+		// Game Logic - Start
+
+
+
+		// Game Logic - End
 
 		// GUI Logic - Start
 
