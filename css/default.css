@@ -117,7 +117,7 @@ a:active {
 
 #GameContainer{
 	width:100%;
-	height:60%;
+	height:50%;
 	min-height:210px;
 	background-color:#FFF;
 	border: 5px solid black;
@@ -125,12 +125,21 @@ a:active {
 }
 
 #CurrentShapeContainer{
-	margin-top:10%;
+	margin-top:7%;
 }
 
 #CurrentShape{
 	width:150px;
 	height:150px;
+}
+
+#ChoseShapeContainer{
+	width:100%;
+	height:20%;
+	min-height:100px;
+	background-color:green;
+	border: 5px solid black;
+	border-radius: 5px;
 }
 
 /* Shapes - Start */
