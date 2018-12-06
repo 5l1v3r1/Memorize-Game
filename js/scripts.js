@@ -22,6 +22,8 @@ var memorize = (function (memorize) {
 		var $BTNOptions = $('#BTNOptions');
 		var $BTNCredits = $('#BTNCredits');
 		var $GameContainer = $('#GameContainer');
+		var $CurrentShapeContainer = $('#CurrentShapeContainer');
+		var $CurrentShape = $('#CurrentShape');
 
 		// Audio / Sound
 
